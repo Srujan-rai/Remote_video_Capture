@@ -5,6 +5,9 @@
 </head>
 <body>
     <h1>Video Streaming</h1>
+    <p>Local IP: {{ local_ip }}</p>
+    <p>Public IP: {{ public_ip }}</p>
     <img src="{{ url_for('video_feed') }}">
+
 </body>
 </html>
